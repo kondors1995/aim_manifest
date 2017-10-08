@@ -12,15 +12,15 @@ To get started with the building process, you'll need to get familiar with [Git 
 
 To initialize your local repository, use a command like this:
 
-    repo init -u git://github.com/AIMROM/manifest.git -b o
+    repo init -u git://github.com/KudProject/aim_manifest.git -b o-kud
 
 Then to sync up:
 
-    repo sync  -f --force-sync --no-clone-bundle --no-tags -j8
+    repo sync --force-sync --no-tags --no-clone-bundle
 
 Additionally, you can define the number of parallel download repo should do:
 
-    repo sync -jX -f --force-sync --no-clone-bundle --no-tags
+    repo sync -jX --force-sync --no-tags --no-clone-bundle
 
 With X being the number of parallel downloads
 
